@@ -20,7 +20,10 @@ be "S1", and so on )
 based on giving information below each computer
 + Configuring a VLAN interface on each switch
 based on giving information for each switch ( notice
-that the interface number must be "VLAN 1" )
+that the interface number must be "VLAN 1" and the IP address for the
+related switch is "192.168.1" + switch's index. For example, the IP address
+for S3's interface vlan 1 is "192.168.1.3", and the subnet mask for all switches
+is 255.255.255.0 )
 + Configuring SSH for each switch based on information below: 
 	- Username should be equal to the switch's hostname.
 	This means for example the username for S1 is "s1" and so on
